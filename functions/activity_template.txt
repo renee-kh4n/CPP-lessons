@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+
+return_type buildPyramid();
+return_type isEven(data_type num);
+return_type computeTotalMinutes(data_type hours, data_type minutes);
+return_type computePercent(data_type amount, data_type percent);
+
+
+int main(){
+
+    /* VARIABLES: ALWAYS PLACE AT THE TOP PART OF MAIN */
+
+    // isEven
+    int num_1, num_2; 
+    
+    // computeTotalMinutes
+    int hours, minutes; 
+
+    // compute percent
+    float amount; 
+    int percent;
+
+    /* FUNCTION CALLS */
+
+    // print a 3-level pyramid using '*', return nothing
+    buildPyramid();
+
+    // given an integer, return true or false
+    isEven(num_1);
+    isEven(num_2);
+
+    // given hours & minutes, return the total time in minutes
+    computeTotalMinutes(hours, minutes);
+
+    // given an amount (number with fractional parts) and a percent in whole number, 
+    // return the value that represents the given percent of the amount.
+    computePercent(amount, percent);
+
+    return 0;
+
+}
